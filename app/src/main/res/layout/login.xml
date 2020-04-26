@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kakao"
+    android:orientation="horizontal"
+    android:layout_weight="10"
+    >
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_gravity="top"
+        android:layout_weight="8"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_marginTop="150dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/kakao"
+            />
+
+        <EditText
+            android:id="@+id/email"
+            android:hint="카카오 계정(이메일)"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            />
+        <EditText
+            android:id="@+id/pw"
+            android:hint="비밀번호"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            />
+        <Button
+            android:id="@+id/login"
+            android:background="#6F4F28"
+            android:text="로그인"
+            android:textColor="#999999"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <Button
+            android:id="@+id/register"
+            android:background="#6F4F28"
+            android:text="회원가입"
+            android:textColor="#999999"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+</LinearLayout>
