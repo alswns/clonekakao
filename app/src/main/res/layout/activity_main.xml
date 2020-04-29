@@ -20,6 +20,7 @@
             android:layout_height="match_parent"
             android:text="친구"
             android:textColor="#000000"
+            android:textStyle="bold"
             />
         <TextView
 
@@ -56,13 +57,15 @@
         android:layout_weight="13"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:orientation="vertical"
         >
+
+
         <ListView
-            android:divider="@drawable/list_divider"
-            android:dividerHeight="0.000001dp"
             android:id="@+id/list"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            android:dividerHeight="0.000001dp" />
     </LinearLayout>
     <LinearLayout
         android:layout_weight="1"
